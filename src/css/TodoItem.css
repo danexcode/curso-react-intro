@@ -50,6 +50,10 @@
   font-weight: bold;
 }
 
+.Icon-svg {
+  width: 24px;
+}
+
 .Todo-text {
   font-weight: 400;
 }

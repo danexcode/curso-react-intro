@@ -1,3 +1,7 @@
+.Search-container {
+  position: relative;
+}
+
 .TodoSearch {
   width: 400px;
   padding: 12px;
@@ -9,4 +13,11 @@
 
 .TodoSearch:focus {
   outline-color: rgb(255, 175, 109);
+}
+
+.Search-button-span {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
 }

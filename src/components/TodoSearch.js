@@ -1,8 +1,22 @@
-import '../css/TodoSearch.css'
+import React from 'react';
+import { BiSearch } from 'react-icons/bi';
+import '../css/TodoSearch.css';
 
-function TodoSearch(props) {
+function TodoSearch({ searchValue, setSearchValue }) {
   return (
-    <input className="TodoSearch" placeholder="Entrenar calestenia"></input>
+    <div className='Search-container'>
+      <input
+        className="TodoSearch"
+        placeholder="Entrenar calestenia"
+        value={searchValue}
+        onChange={(event) => {
+          setSearchValue(event.target.value);
+        }}
+      ></input>
+      <span
+        className='Search-button-span'
+      > <BiSearch  /> </span>
+    </div>
   );
 }
 
