@@ -1,0 +1,36 @@
+section {
+  background-color: rgb(255, 255, 255);
+  width: 424px;
+  height: 50px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  position: relative;
+  list-style:none;
+
+  animation: skeleton-loading 0.8s linear infinite alternate;
+}
+
+section:nth-child(1){
+  animation-delay: 0s;
+}
+
+section:nth-child(2){
+  animation-delay: 0.1s;
+}
+
+section:nth-child(3){
+  animation-delay: 0.2s;
+}
+
+section:nth-child(4){
+  animation-delay: 0.3s;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: rgb(255, 223, 184);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}

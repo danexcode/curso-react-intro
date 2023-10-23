@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiSearch } from 'react-icons/bi';
-import '../css/TodoSearch.css';
+import './TodoSearch.css';
 
 function TodoSearch({ searchValue, setSearchValue }) {
   return (

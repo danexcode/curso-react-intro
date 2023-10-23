@@ -1,6 +1,6 @@
 import { BiCheck, BiTrash } from 'react-icons/bi'
 
-import '../css/TodoItem.css'
+import './TodoItem.css'
 
 function TodoItem({ index, text, completed, onComplete, onDelete}) {
   return (
