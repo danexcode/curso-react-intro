@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/danexcode/curso-react-intro/static/css/main.f44c740a.css",
-    "main.js": "/danexcode/curso-react-intro/static/js/main.cd25c3af.js",
-    "index.html": "/danexcode/curso-react-intro/index.html",
-    "main.f44c740a.css.map": "/danexcode/curso-react-intro/static/css/main.f44c740a.css.map",
-    "main.cd25c3af.js.map": "/danexcode/curso-react-intro/static/js/main.cd25c3af.js.map"
+    "main.css": "/curso-react-intro/static/css/main.f44c740a.css",
+    "main.js": "/curso-react-intro/static/js/main.cd25c3af.js",
+    "index.html": "/curso-react-intro/index.html",
+    "main.f44c740a.css.map": "/curso-react-intro/static/css/main.f44c740a.css.map",
+    "main.cd25c3af.js.map": "/curso-react-intro/static/js/main.cd25c3af.js.map"
   },
   "entrypoints": [
     "static/css/main.f44c740a.css",
