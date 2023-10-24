@@ -1,8 +1,11 @@
 import React from 'react';
 import { BiSearch } from 'react-icons/bi';
 import './TodoSearch.css';
+import { TodoContext } from '../../TodoContex';
 
-function TodoSearch({ searchValue, setSearchValue }) {
+function TodoSearch() {
+  const { searchValue, setSearchValue } = React.useContext(TodoContext);
+
   return (
     <div className='Search-container'>
       <input

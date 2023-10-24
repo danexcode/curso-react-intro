@@ -3,10 +3,10 @@ import './TodosLoading.css';
 function TodosLoading(){
   return (
     <div>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <li className='li-loading'></li>
+      <li className='li-loading'></li>
+      <li className='li-loading'></li>
+      <li className='li-loading'></li>
     </div>
   );
 }
